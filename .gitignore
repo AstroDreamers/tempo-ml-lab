@@ -1,0 +1,113 @@
+# .gitignore for a mixed Python / Java (Maven) / Node project
+# Generated to keep build artifacts, virtual envs, IDE files and OS cruft out of git.
+
+# ===== Python =====
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+.venv/*
+
+# Pip / packaging
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+*.egg
+
+# Distribution / build
+build/
+dist/
+
+# Pytest
+.pytest_cache/
+.cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite3
+
+# Environment variables / secrets
+.env
+.env.*
+secrets.yml
+.venv.env
+
+# ===== Java / Maven =====
+/target/
+*.class
+*.jar
+*.war
+*.ear
+# Maven specific
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Eclipse / IntelliJ
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+
+# ===== Node / front-end =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore local build artifacts (adjust if you commit your built static assets intentionally)
+# e.g., the React client has a build/ directory; if you intentionally track it, remove the following line
+# tempoclient/build/   # <- uncomment to ignore only the client build
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+.history/
+
+# Other editors
+*.sublime-workspace
+*.sublime-project
+
+# Docker
+docker-compose.override.yml
+*.dockerfile
+docker-compose.*.yml
+
+# Temporary files
+*.swp
+*~
+
+# IDE and OS specific
+.vagrant/
+
+# GitHub generated
+.idea/
+
+# End of file
