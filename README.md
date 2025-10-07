@@ -87,7 +87,7 @@ docker run -p 5000:5000 \
       "datetime": "2025-10-05T01:00:00",
       "pm25": 32.8
     }
-    // ... minimum 24 hours of data required
+    // ... minimum 48 hours of data required
   ]
 }
 ```
