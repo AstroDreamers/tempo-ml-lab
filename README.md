@@ -1,6 +1,3 @@
-Here's a comprehensive README for your PM2.5 Prediction Service repository:
-
-```markdown
 # PM2.5 Prediction Service
 
 A FastAPI-based machine learning service that predicts PM2.5 (particulate matter) air quality levels up to 6 hours ahead using historical data.
@@ -256,4 +253,3 @@ For questions or support, please contact +61450306460
 - Built with FastAPI
 - Deployed on Render
 - Part of the Tempo Air Quality Monitoring System
-```
